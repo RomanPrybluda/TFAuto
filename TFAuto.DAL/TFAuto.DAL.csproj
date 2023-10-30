@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+    <PackageReference Include="IEvangelist.Azure.CosmosRepository" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.3" />
+  </ItemGroup>
+
+</Project>

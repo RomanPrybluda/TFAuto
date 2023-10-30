@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFAuto.WebApp", "TFAuto\TFAuto.WebApp.csproj", "{F91B253E-ADC0-476D-9EB1-F72A4D914666}"
+	ProjectSection(ProjectDependencies) = postProject
+		{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D} = {015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFAuto.Domain", "TFAuto.Domain\TFAuto.Domain.csproj", "{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13DF2847-217A-49A7-9344-BA7D101D4717} = {13DF2847-217A-49A7-9344-BA7D101D4717}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFAuto.DAL", "TFAuto.DAL\TFAuto.DAL.csproj", "{13DF2847-217A-49A7-9344-BA7D101D4717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F91B253E-ADC0-476D-9EB1-F72A4D914666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91B253E-ADC0-476D-9EB1-F72A4D914666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91B253E-ADC0-476D-9EB1-F72A4D914666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91B253E-ADC0-476D-9EB1-F72A4D914666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015A04CA-F5DC-4D1B-83B2-07C02DD12F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DF2847-217A-49A7-9344-BA7D101D4717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DF2847-217A-49A7-9344-BA7D101D4717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DF2847-217A-49A7-9344-BA7D101D4717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DF2847-217A-49A7-9344-BA7D101D4717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75AEE6AE-FA8F-4232-97A5-AFB2DAE2FC1E}
+	EndGlobalSection
+EndGlobal
