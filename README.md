@@ -7,4 +7,6 @@ A website with current news from the world of cars.
 
 # Key Resources
 
-    [Swagger](https://qa-api-tfauto.azurewebsites.net/swagger/index.html)
+    [Swagger](https://qa-api-tfauto.azurewebsites.net/swagger/index.html/)
+
+    This site was built using [GitHub Pages](https://pages.github.com/).
