@@ -4,3 +4,7 @@ My first Pet project TFAuto where I participated as a backend developer. The pro
 TechFabric educational project
 
 A website with current news from the world of cars.
+
+# Key Resources
+
+    [[Swagger]](https://qa-api-tfauto.azurewebsites.net/swagger/index.html)
